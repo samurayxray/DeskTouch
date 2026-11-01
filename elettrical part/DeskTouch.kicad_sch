@@ -1,0 +1,792 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bd6fe71c-8738-4df7-81e8-d99a7c0d2a53")
+	(paper "A4")
+	(title_block
+		(title "DeskTouch / Collegamenti effettivi")
+		(date "2026-11-01")
+		(rev "P01")
+		(company "Progetto locale - moduli originali")
+		(comment 1 "Preliminare: nessun test fisico eseguito")
+	)
+	(lib_symbols
+		(symbol "DeskTouch:Display_modulo"
+			(pin_names
+				(offset 1)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 25 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.6 1.6)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Display_modulo"
+				(at 0 22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.6 1.6)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Display_modulo_0_1"
+				(rectangle
+					(start -25.4 20.32)
+					(end 25.4 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Display_modulo_1_1"
+				(pin power_in line
+					(at -35.56 5.08 0)
+					(length 10.16)
+					(name "J1_/_+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -35.56 -10.16 0)
+					(length 10.16)
+					(name "J1_/_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DeskTouch:Pi4_modulo"
+			(pin_names
+				(offset 1)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 25 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.6 1.6)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Pi4_modulo"
+				(at 0 22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.6 1.6)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Pi4_modulo_0_1"
+				(rectangle
+					(start -25.4 20.32)
+					(end 25.4 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Pi4_modulo_1_1"
+				(pin power_out line
+					(at 35.56 5.08 180)
+					(length 10.16)
+					(name "+5V_/_fisico_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -10.16 180)
+					(length 10.16)
+					(name "GND_/_fisico_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "GPIO: 2 e 6 sono numeri FISICI, non BCM. Su J1, + e - sono identificatori funzionali, non numeri di contatto."
+		(exclude_from_sim no)
+		(at 18 127 0)
+		(effects
+			(font
+				(size 1.45 1.45)
+			)
+			(justify left)
+		)
+		(uuid "2acb359c-0d8a-4e45-96df-579a599d4447")
+	)
+	(text "NERO / GND"
+		(exclude_from_sim no)
+		(at 125 87 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "4335dd08-85d1-4a3c-9b09-fbbd5f207b9a")
+	)
+	(text "ROSSO / +5V"
+		(exclude_from_sim no)
+		(at 125 72 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "4797d147-1234-45ff-8b09-5119ff9b689c")
+	)
+	(text "DeskTouch / Collegamenti effettivi"
+		(exclude_from_sim no)
+		(at 16 18 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "555a2692-b150-4d12-9ea7-e4c1bde813aa")
+	)
+	(text "Alimentatore ufficiale EU esterno 5,1 V / 3 A -> USB-C POWER del Pi (cavo originale)"
+		(exclude_from_sim no)
+		(at 20 35 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "ac273c3d-f7e4-4027-b915-bfb4319f675f")
+	)
+	(text "Porta DISPLAY / DSI del Pi <== flat originale 15 vie / 15 vie ==> DSI display"
+		(exclude_from_sim no)
+		(at 45 113 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "c0d8fda3-8751-4497-9f6d-0e8180cb76e0")
+	)
+	(text "DSI: collegamento a livello di connettore, non ricostruzione dei 15 contatti."
+		(exclude_from_sim no)
+		(at 45 119 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "e2ffcc21-cec2-4345-b8e6-1e2c5e0ddb93")
+	)
+	(text "Niente PCB personalizzato. Simboli modulo senza footprint; non usare questo progetto per produrre una scheda."
+		(exclude_from_sim no)
+		(at 18 169 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "e3f40f2b-27f7-4b86-917a-251ce26f9942")
+	)
+	(wire
+		(pts
+			(xy 116.84 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b529057-30a8-4d25-b99c-48db99ddaf66")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 167.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d76d958-fea3-49c8-b218-5232bc7ac576")
+	)
+	(symbol
+		(lib_id "DeskTouch:Display_modulo")
+		(at 203.2 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "607b9110-7505-4637-984f-79f9aea9190a")
+		(property "Reference" "U2"
+			(at 178.2 55.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Touch Display 2 / 5 pollici"
+			(at 178.2 59.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.6 1.6)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "+"
+			(uuid "b03c6812-4f80-4e49-a5db-b88cefcfc36c")
+		)
+		(pin "-"
+			(uuid "f707207a-51b0-4987-955f-666e73e14057")
+		)
+		(instances
+			(project "DeskTouch"
+				(path "/bd6fe71c-8738-4df7-81e8-d99a7c0d2a53"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DeskTouch:Pi4_modulo")
+		(at 81.28 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "becfa492-f39f-4ba2-b2c6-9693853fa455")
+		(property "Reference" "U1"
+			(at 56.28 55.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Raspberry Pi 4 B / 1 GB"
+			(at 56.28 59.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.6 1.6)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6d5405a6-a876-4dc5-a7e8-bab42e5ec47c")
+		)
+		(pin "6"
+			(uuid "9cf891de-e92f-40be-b4a1-b7b6a204b500")
+		)
+		(instances
+			(project "DeskTouch"
+				(path "/bd6fe71c-8738-4df7-81e8-d99a7c0d2a53"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233 144)
+		(size 39 12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6bb89b0b-ce17-405f-a026-31d7918c6309")
+		(property "Sheetname" "Controlli"
+			(at 233 142.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.35 1.35)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "07_controlli.kicad_sch"
+			(at 233 158 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DeskTouch"
+				(path "/bd6fe71c-8738-4df7-81e8-d99a7c0d2a53"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104 144)
+		(size 39 12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "704b547c-d446-4fc3-bafd-3f600ced11ed")
+		(property "Sheetname" "Cavo DSI"
+			(at 104 142.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.35 1.35)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "04_dsi.kicad_sch"
+			(at 104 158 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DeskTouch"
+				(path "/bd6fe71c-8738-4df7-81e8-d99a7c0d2a53"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 61 144)
+		(size 39 12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8534db66-5f61-4157-b1ea-3f52bc55212a")
+		(property "Sheetname" "Cavo GPIO"
+			(at 61 142.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.35 1.35)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "03_gpio.kicad_sch"
+			(at 61 158 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DeskTouch"
+				(path "/bd6fe71c-8738-4df7-81e8-d99a7c0d2a53"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147 144)
+		(size 39 12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8c057ad8-b557-4e85-ae7a-5e74706f64cc")
+		(property "Sheetname" "Alimentazione"
+			(at 147 142.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.35 1.35)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "05_alimentazione.kicad_sch"
+			(at 147 158 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DeskTouch"
+				(path "/bd6fe71c-8738-4df7-81e8-d99a7c0d2a53"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 18 144)
+		(size 39 12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b25cf3df-bf42-401e-ab00-a2adcbf9f126")
+		(property "Sheetname" "Architettura"
+			(at 18 142.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.35 1.35)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "02_architettura.kicad_sch"
+			(at 18 158 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DeskTouch"
+				(path "/bd6fe71c-8738-4df7-81e8-d99a7c0d2a53"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190 144)
+		(size 39 12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d3562776-7b38-477f-8645-05fb15ea92e9")
+		(property "Sheetname" "Distinta"
+			(at 190 142.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.35 1.35)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "06_distinta.kicad_sch"
+			(at 190 158 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DeskTouch"
+				(path "/bd6fe71c-8738-4df7-81e8-d99a7c0d2a53"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

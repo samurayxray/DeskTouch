@@ -1,0 +1,275 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "40c8716f-9817-4cf3-86ce-818048aafcb8")
+	(paper "A4")
+	(title_block
+		(title "DeskTouch / Controlli prima accensione")
+		(date "2026-11-01")
+		(rev "P01")
+		(company "Progetto locale - moduli originali")
+		(comment 1 "Preliminare: nessun test fisico eseguito")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 20 84)
+		(end 24 88)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "092ad4f4-7910-4732-bc46-7a71bcda0db3")
+	)
+	(rectangle
+		(start 20 135)
+		(end 24 139)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3589121a-8506-458e-bb9f-d40ba4bea25b")
+	)
+	(rectangle
+		(start 20 101)
+		(end 24 105)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3bfd80b9-b464-4162-bd61-a51794a9fe54")
+	)
+	(rectangle
+		(start 20 67)
+		(end 24 71)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7bd69b1a-63a2-48d1-bdb1-f620f55c7248")
+	)
+	(rectangle
+		(start 20 118)
+		(end 24 122)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8980616d-4ea2-4813-922b-02ae40fd1a9c")
+	)
+	(rectangle
+		(start 20 152)
+		(end 24 156)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b6443af7-4b68-46bd-9795-b153a700c75c")
+	)
+	(rectangle
+		(start 20 50)
+		(end 24 54)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e430a0f5-8ef7-422a-9301-fdc3d15dcfaa")
+	)
+	(text "DA ESEGUIRE SUL CAMPIONE - non attesta un collaudo."
+		(exclude_from_sim no)
+		(at 20 38 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "0be495ad-d56d-43f0-88a6-ce8aa68c680f")
+	)
+	(text "Flat DSI"
+		(exclude_from_sim no)
+		(at 30 87 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+			)
+			(justify left)
+		)
+		(uuid "0ddc15c2-8801-4fb5-9231-02250256656c")
+	)
+	(text "Primo avvio"
+		(exclude_from_sim no)
+		(at 30 155 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+			)
+			(justify left)
+		)
+		(uuid "0e32fbcd-fe4f-4b4c-a434-69658adff2e8")
+	)
+	(text "Cavo GPIO"
+		(exclude_from_sim no)
+		(at 30 70 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+			)
+			(justify left)
+		)
+		(uuid "1823d0ea-99d4-46c2-8795-1f8a7efeaa91")
+	)
+	(text "PSU scollegato"
+		(exclude_from_sim no)
+		(at 30 53 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+			)
+			(justify left)
+		)
+		(uuid "5cfd36e3-aff7-4db0-af67-7e2a66d4774d")
+	)
+	(text "Piedini e serraggio; verificare accesso microSD a sistema spento."
+		(exclude_from_sim no)
+		(at 30 144 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "73acdab0-6879-4bb3-b80d-1d82314df789")
+	)
+	(text "Nessuna vite libera o truciolo; schede isolate da metallo."
+		(exclude_from_sim no)
+		(at 30 59 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "846bcc36-fece-48dd-a435-ceaf2620230a")
+	)
+	(text "PSU EU esterno; niente seconda alimentazione al display."
+		(exclude_from_sim no)
+		(at 30 127 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "8d736540-48b3-4a0e-82c4-08ae54a5a1d0")
+	)
+	(text "Sorvegliare: touch, corrente, temperatura e stabilita. Annotare risultati."
+		(exclude_from_sim no)
+		(at 30 161 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "8ea9376e-e2b5-490a-9989-ec72c5916222")
+	)
+	(text "Coperchio e USB-C"
+		(exclude_from_sim no)
+		(at 30 104 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+			)
+			(justify left)
+		)
+		(uuid "9c2f5985-d196-42f2-a973-ae1918c8115d")
+	)
+	(text "Meccanica"
+		(exclude_from_sim no)
+		(at 30 138 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+			)
+			(justify left)
+		)
+		(uuid "a5936a4e-6032-4a42-a534-b81f0c35d515")
+	)
+	(text "Rosso al pin fisico 2; nero al 6. Confrontare marcature e guida."
+		(exclude_from_sim no)
+		(at 30 76 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "bba9088a-6bc3-4c13-b62e-c03354261c5c")
+	)
+	(text "Alimentazione"
+		(exclude_from_sim no)
+		(at 30 121 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+			)
+			(justify left)
+		)
+		(uuid "c0db923d-0d58-4d2f-a9f3-1f5ee9ac3952")
+	)
+	(text "15/15 su DISPLAY; contatti e fermi corretti; nessuna piega viva."
+		(exclude_from_sim no)
+		(at 30 93 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "d62cd69c-d080-4756-98a0-a9c9531f2114")
+	)
+	(text "Nessuno schiacciamento; nessuno sforzo laterale sulla presa."
+		(exclude_from_sim no)
+		(at 30 110 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "e94e0fee-4e4f-4f1a-afb3-af99356a7ca0")
+	)
+	(text "DeskTouch / Controlli prima accensione"
+		(exclude_from_sim no)
+		(at 16 18 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "f0600db1-b065-4471-a780-80557c1c2518")
+	)
+)

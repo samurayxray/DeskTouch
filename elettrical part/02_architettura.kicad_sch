@@ -1,0 +1,323 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "790142fa-b053-4dbd-bad2-98fe9ed1f5ed")
+	(paper "A4")
+	(title_block
+		(title "DeskTouch / Architettura a blocchi")
+		(date "2026-11-01")
+		(rev "P01")
+		(company "Progetto locale - moduli originali")
+		(comment 1 "Preliminare: nessun test fisico eseguito")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 110 45)
+		(end 180 95)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6a6f70db-6a8b-441b-b88d-6a3b9b9d55b6")
+	)
+	(rectangle
+		(start 211 45)
+		(end 276 95)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "83cab895-928b-4dfb-903f-1499e217bb74")
+	)
+	(rectangle
+		(start 18 45)
+		(end 83 85)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9948a3ab-793a-4ecd-a967-414b9adcd453")
+	)
+	(rectangle
+		(start 110 127)
+		(end 180 157)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "adf94d61-c684-4646-be35-52bc9ab0a554")
+	)
+	(text "DSI"
+		(exclude_from_sim no)
+		(at 188 54 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "1e0491c9-5b2a-447d-b0f6-8c38db5f0298")
+	)
+	(text "5,1 V / 3 A"
+		(exclude_from_sim no)
+		(at 21 60 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "3a8d66c7-f9d8-4d17-9c9c-7ea82f36ba89")
+	)
+	(text "DeskTouch / Architettura a blocchi"
+		(exclude_from_sim no)
+		(at 16 18 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "41d52cb4-0b52-460f-9491-347452a7afbb")
+	)
+	(text "Rete elettrica fuori dal case"
+		(exclude_from_sim no)
+		(at 21 72 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "42d4956c-d618-4f7a-8055-9579e480e828")
+	)
+	(text "Alimentato dal Pi"
+		(exclude_from_sim no)
+		(at 214 72 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "5019a65f-5ae9-4f7f-b893-ac8706738e9d")
+	)
+	(text "Touch capacitivo"
+		(exclude_from_sim no)
+		(at 214 66 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "501b463f-9b78-489f-99dc-a2b264888171")
+	)
+	(text "1280 x 720 landscape"
+		(exclude_from_sim no)
+		(at 214 60 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "54bdceb6-ef8f-422f-b3b0-7c207988cb7a")
+	)
+	(text "USB-C integrato"
+		(exclude_from_sim no)
+		(at 21 66 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "660d3757-b30d-4c3b-a790-06e1226b2822")
+	)
+	(text "Wi-Fi oppure Ethernet"
+		(exclude_from_sim no)
+		(at 113 72 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "6ba6030b-29b9-4d3b-85ba-d8e9522fa0a2")
+	)
+	(text "API e accessi da chiarire"
+		(exclude_from_sim no)
+		(at 113 148 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "72c553c5-cb37-4019-88cb-8effc17299c1")
+	)
+	(text "5V + GND"
+		(exclude_from_sim no)
+		(at 183 77 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "95c4e7ce-148d-4a54-b9c4-133fcfb4938b")
+	)
+	(text "Server / bot da definire"
+		(exclude_from_sim no)
+		(at 113 134 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "97ec21cd-a6ae-44e6-9101-3584233fc5ff")
+	)
+	(text "USB-C"
+		(exclude_from_sim no)
+		(at 87 62 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "9c98f31f-a53f-45d1-baa3-f176f71d62ba")
+	)
+	(text "Touch Display 2 / 5\""
+		(exclude_from_sim no)
+		(at 214 52 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "b3ce59f8-52c8-4a9a-aed1-6d5bb6314111")
+	)
+	(text "Raspberry Pi 4 / 1 GB"
+		(exclude_from_sim no)
+		(at 113 52 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "b9adbd74-866d-412a-9655-261acb07f180")
+	)
+	(text "Statistiche sulla rete locale"
+		(exclude_from_sim no)
+		(at 113 142 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "d0eaf5c6-5c6a-44e1-a328-5e3a80143d76")
+	)
+	(text "PSU certificato EU"
+		(exclude_from_sim no)
+		(at 21 52 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "d8c72c27-5eee-42fc-a7b9-65baa993d0c3")
+	)
+	(text "LAN / Wi-Fi"
+		(exclude_from_sim no)
+		(at 150 112 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "de4a8c41-e8af-46f9-accc-8dfe43213eb5")
+	)
+	(text "Raspberry Pi OS"
+		(exclude_from_sim no)
+		(at 113 60 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "e65cf6c2-e67b-4fb8-9761-b37590097465")
+	)
+	(text "microSD"
+		(exclude_from_sim no)
+		(at 113 66 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "ecfaf44b-d9d7-40f0-808f-d6f017cbec72")
+	)
+	(polyline
+		(pts
+			(xy 145 95) (xy 145 127)
+		)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(uuid "a8b9c9df-b59f-449e-b238-d85f3bf86322")
+	)
+	(polyline
+		(pts
+			(xy 180 58) (xy 211 58)
+		)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(uuid "bf8092ec-68cf-4da8-b05e-25a249d1e0ce")
+	)
+	(polyline
+		(pts
+			(xy 83 65) (xy 110 65)
+		)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(uuid "fc9f64b9-14d9-44b1-a323-5586ff8a6aab")
+	)
+	(polyline
+		(pts
+			(xy 180 80) (xy 211 80)
+		)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(uuid "fe7d73eb-2d17-4468-af07-3b5b0b46a8e9")
+	)
+)

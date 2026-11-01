@@ -1,0 +1,249 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bcf63d6f-9816-4212-b6e7-d32ba5dfe13c")
+	(paper "A4")
+	(title_block
+		(title "DeskTouch / Dettaglio cavo GPIO")
+		(date "2026-11-01")
+		(rev "P01")
+		(company "Progetto locale - moduli originali")
+		(comment 1 "Preliminare: nessun test fisico eseguito")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 27 66)
+		(end 39 78)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4c5accdb-8b36-45f8-bad9-749ceb7f5112")
+	)
+	(rectangle
+		(start 27 116)
+		(end 39 128)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6292ce48-d48e-45a9-8b3a-f525fa6fb614")
+	)
+	(rectangle
+		(start 20 43)
+		(end 130 143)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a4fdb11c-f5aa-4ef5-8c0d-2cec6f02bf82")
+	)
+	(rectangle
+		(start 27 91)
+		(end 39 103)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d199ebee-2799-447d-9001-cb943d50f6cb")
+	)
+	(rectangle
+		(start 172 43)
+		(end 277 143)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dcf8e640-1041-4bd0-b46d-3b1e92b7b8d1")
+	)
+	(text "Nessun filo aggiuntivo sul posto 4. Non usare numeri BCM."
+		(exclude_from_sim no)
+		(at 20 154 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left)
+		)
+		(uuid "26fa4138-8f4f-44af-97a3-d46434aa1af9")
+	)
+	(text "+5V da pin 2"
+		(exclude_from_sim no)
+		(at 180 74 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "390732de-ad1c-4dd7-ae11-69346af2bdda")
+	)
+	(text "Spina originale: tre posizioni"
+		(exclude_from_sim no)
+		(at 23 50 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "4077d98b-8edb-43e2-86cf-91d41a9f4f12")
+	)
+	(text "Schema logico dei tre posti: orientare con le marcature della scheda e la guida ufficiale."
+		(exclude_from_sim no)
+		(at 20 162 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "585496df-543b-4dc1-b119-904fb814000a")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 31 98 0)
+		(effects
+			(font
+				(size 2.3 2.3)
+			)
+			(justify left)
+		)
+		(uuid "64284f88-95ce-4673-9943-8b94077b8007")
+	)
+	(text "J1: usare il cavetto originale. Numerazione dei contatti J1 non ricostruita."
+		(exclude_from_sim no)
+		(at 20 169 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "725df8aa-735e-429d-b836-06da5e577e9c")
+	)
+	(text "Posto intermedio"
+		(exclude_from_sim no)
+		(at 47 98 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "7afc48d8-6df5-4d80-9421-8bb2c3c9cf20")
+	)
+	(text "+5V / rosso"
+		(exclude_from_sim no)
+		(at 47 73 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "8799564e-ce58-4f9b-b22f-b52b3b94cb92")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 31 73 0)
+		(effects
+			(font
+				(size 2.3 2.3)
+			)
+			(justify left)
+		)
+		(uuid "9fd6aa9d-1aaa-40b0-93c7-e9aad465566f")
+	)
+	(text "Display / connettore J1"
+		(exclude_from_sim no)
+		(at 175 50 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "a67882a2-dd1b-43a1-b9db-015b7ed9b5c1")
+	)
+	(text "DeskTouch / Dettaglio cavo GPIO"
+		(exclude_from_sim no)
+		(at 16 18 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "ae1915ff-033c-4725-b4fc-b3789f0e5478")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 31 123 0)
+		(effects
+			(font
+				(size 2.3 2.3)
+			)
+			(justify left)
+		)
+		(uuid "af336776-a37e-437b-92c2-d2089ac1951f")
+	)
+	(text "GND / nero"
+		(exclude_from_sim no)
+		(at 47 123 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "b4b88314-e0e3-4c6e-9d11-15e8eae1561a")
+	)
+	(text "GND da pin 6"
+		(exclude_from_sim no)
+		(at 180 124 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "baf9b3b5-98f1-4d00-bc43-92bd82587678")
+	)
+	(polyline
+		(pts
+			(xy 130 72) (xy 172 72)
+		)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(uuid "185e6635-9cb0-4c0b-bc6e-7bcd78a258a4")
+	)
+	(polyline
+		(pts
+			(xy 130 122) (xy 172 122)
+		)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(uuid "260329df-ca8c-4548-8dfc-8c23f2025892")
+	)
+)

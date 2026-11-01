@@ -1,0 +1,192 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "16b43ee2-50c1-47aa-96e7-398992ce275d")
+	(paper "A4")
+	(title_block
+		(title "DeskTouch / Dettaglio flat DSI")
+		(date "2026-11-01")
+		(rev "P01")
+		(company "Progetto locale - moduli originali")
+		(comment 1 "Preliminare: nessun test fisico eseguito")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 20 45)
+		(end 110 87)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9432d1a4-b1be-4462-bef9-3b973a710831")
+	)
+	(rectangle
+		(start 184 45)
+		(end 276 87)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c26ddd5d-d5a7-4970-af26-08bed0171cec")
+	)
+	(text "FFC originale a 15 vie"
+		(exclude_from_sim no)
+		(at 187 60 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "1ecaf2f5-6a03-46df-acca-732f1174eca1")
+	)
+	(text "Lunghezza e raggio minimo da verificare sul flat fornito. Non usare il 22/15 del Pi 5."
+		(exclude_from_sim no)
+		(at 25 170 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "4c5d6313-bc1b-47db-82c8-8a1bbf337213")
+	)
+	(text "NON usare CAMERA CSI"
+		(exclude_from_sim no)
+		(at 23 60 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "594a96de-c503-46d4-877d-1fd5031b5755")
+	)
+	(text "15 vie <-> 15 vie"
+		(exclude_from_sim no)
+		(at 119 60 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "713945f9-ea32-4690-9e98-fa3b76918abe")
+	)
+	(text "4. Chiudere i fermi; niente pieghe vive, trazione o schiacciamenti."
+		(exclude_from_sim no)
+		(at 25 146 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "9f58ad52-a6a0-468a-ab00-e41565033dfe")
+	)
+	(text "FFC originale a 15 vie"
+		(exclude_from_sim no)
+		(at 23 66 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "a9cb7681-20d2-48b8-86ba-16cfe1d24df7")
+	)
+	(text "Display / DSI"
+		(exclude_from_sim no)
+		(at 187 52 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "adb29874-666f-4bbe-8540-64957ed2d347")
+	)
+	(text "DeskTouch / Dettaglio flat DSI"
+		(exclude_from_sim no)
+		(at 16 18 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "ce8d6138-ab1e-42d0-99f0-5e5fc66271af")
+	)
+	(text "2. Aprire il fermo e inserire il flat diritto e fino in fondo."
+		(exclude_from_sim no)
+		(at 25 120 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "d1931560-7ba3-4ab8-8c0f-ae8b3f2c65e0")
+	)
+	(text "Pi 4 / DISPLAY DSI"
+		(exclude_from_sim no)
+		(at 23 52 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "ddb9b9d7-bf0a-42e7-974c-2dbce412c5c4")
+	)
+	(text "1. Scollegare completamente il PSU."
+		(exclude_from_sim no)
+		(at 25 107 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "e32028e9-b2da-4907-b3aa-3bc90b517ace")
+	)
+	(text "Potenza separata su J1"
+		(exclude_from_sim no)
+		(at 187 66 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "e5729bbe-c03d-40a8-a51a-e24eec74a2c7")
+	)
+	(text "3. Sul Pi: contatti metallici verso USB/Ethernet, come da guida."
+		(exclude_from_sim no)
+		(at 25 133 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "e8e77cc1-d054-4db0-bc50-96d5279a3947")
+	)
+	(polyline
+		(pts
+			(xy 110 65) (xy 184 65)
+		)
+		(stroke
+			(width 0.8)
+			(type default)
+		)
+		(uuid "af9b7cb7-a096-4483-b017-0b02f3cb251e")
+	)
+)

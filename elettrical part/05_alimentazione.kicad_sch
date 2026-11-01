@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d4cef2c6-ab87-458f-bf2c-27c018b64342")
+	(paper "A4")
+	(title_block
+		(title "DeskTouch / Alimentazione e assorbimento")
+		(date "2026-11-01")
+		(rev "P01")
+		(company "Progetto locale - moduli originali")
+		(comment 1 "Preliminare: nessun test fisico eseguito")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 157 40)
+		(end 277 95)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "54d5f72c-a516-450f-aca5-a9b40c447d4f")
+	)
+	(rectangle
+		(start 20 40)
+		(end 140 95)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8de7da7b-5642-44d7-bbd4-3d1042788e74")
+	)
+	(text "Nessun 230 V nel contenitore"
+		(exclude_from_sim no)
+		(at 23 67 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "02387fd4-4207-473c-a9a1-91086531bb2d")
+	)
+	(text "Controllare undervoltage e temperatura con coperchio chiuso."
+		(exclude_from_sim no)
+		(at 23 157 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+			)
+			(justify left)
+		)
+		(uuid "06cf0553-9c74-40a9-adcb-1596a7012794")
+	)
+	(text "Alimentatore esterno EU"
+		(exclude_from_sim no)
+		(at 23 47 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "0999b12c-4508-49a0-8b67-4ad8538aeffa")
+	)
+	(text "Le stime non sono massimi garantiti e non includono dischi USB o HAT aggiuntivi."
+		(exclude_from_sim no)
+		(at 23 129 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+			)
+			(justify left)
+		)
+		(uuid "0d203ede-c119-4b6d-868a-563f3607df1d")
+	)
+	(text "Display: riserva 0,5 A"
+		(exclude_from_sim no)
+		(at 160 61 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "26b516e0-aec9-445f-8096-d7b7a593e2f1")
+	)
+	(text "DeskTouch / Alimentazione e assorbimento"
+		(exclude_from_sim no)
+		(at 16 18 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "555792ec-23e3-44c2-b380-41c33bed7bad")
+	)
+	(text "Totale atteso: 1,2 - 1,8 A"
+		(exclude_from_sim no)
+		(at 160 67 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "76afa984-5df9-45a1-b4de-d367e1b351c2")
+	)
+	(text "Raspberry Pi 15W USB-C"
+		(exclude_from_sim no)
+		(at 23 55 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "91b4776c-6597-4bd9-8c41-38a99209e61c")
+	)
+	(text "Misurare avvio, luminosita massima, tensione e carico reale."
+		(exclude_from_sim no)
+		(at 23 143 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+			)
+			(justify left)
+		)
+		(uuid "97ad4406-1653-41bc-aefb-105c81112551")
+	)
+	(text "PSU 3 A: margine teorico circa 1,2 A rispetto alla stima superiore di 1,8 A."
+		(exclude_from_sim no)
+		(at 23 115 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+			)
+			(justify left)
+		)
+		(uuid "bbc6c900-7466-438d-8b4f-c91f311c4399")
+	)
+	(text "Budget, non misure"
+		(exclude_from_sim no)
+		(at 160 47 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "d0641200-400f-4366-995f-c9f6986aa8ae")
+	)
+	(text "Uscita dichiarata 5,1 V / 3 A"
+		(exclude_from_sim no)
+		(at 23 61 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "e1be5be8-7c94-4f14-84b0-6b4da234c87d")
+	)
+	(text "Pi 4: ipotesi 0,7 - 1,3 A"
+		(exclude_from_sim no)
+		(at 160 55 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "e400be59-9244-45b6-a3c9-9dd67b9b2bdb")
+	)
+)
